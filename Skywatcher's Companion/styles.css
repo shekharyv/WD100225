@@ -1,0 +1,112 @@
+/* Stylish Gradient Background */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(120deg, #1e3c72, #2a5298);
+    color: white;
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s ease-in-out;
+}
+
+/* Beautiful Container */
+.container {
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    max-width: 400px;
+}
+
+/* Search Box Styling */
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+input:focus {
+    background: #f0f8ff;
+}
+
+/* Button Styling */
+button {
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff5722;
+}
+
+/* Weather Information */
+#weatherInfo {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+/* Weather Icon */
+#weatherIcon {
+    width: 90px;
+    margin: 10px 0;
+}
+
+/* Error Message */
+.error {
+    color: #ff4444;
+    font-size: 16px;
+}
+
+/* Hide Elements Initially */
+.hidden {
+    display: none;
+}
+
+/* Background Changes Based on Weather */
+.sunny {
+    background: linear-gradient(120deg, #fdbb2d, #ff8c00);
+}
+
+.cloudy {
+    background: linear-gradient(120deg, #757f9a, #d7dde8);
+}
+
+.rainy {
+    background: linear-gradient(120deg, #3a6186, #89253e);
+}
+
+.snowy {
+    background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+}
+
+.thunderstorm {
+    background: linear-gradient(120deg, #141e30, #243b55);
+}
+
+.misty {
+    background: linear-gradient(120deg, #b1b1b1, #e0e0e0);
+}
